@@ -145,3 +145,27 @@ h1, h2, h3 {
 
 .bot-card.Support { border-top: 4px solid var(--support); }
 .bot-card.Medic { border-top: 4px solid var(--medic); }
+
+/* Add to your App.css */
+.army-bot-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.discharge-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.your-bot-army .bot-card {
+  margin: 15px;
+}
